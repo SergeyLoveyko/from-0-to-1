@@ -39,10 +39,18 @@ ul {
 
 .menu {
   display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .menu__item:not(:last-child) {
   padding-right: 30px;
+}
+
+.nav__phone {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: right;
 }
 
 
