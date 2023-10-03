@@ -55,7 +55,7 @@ ul {
   text-align: right;
 }
 
-/* ------ headerline ------- */
+/* ------ section headline ------- */
 
 .headline {
   background-color: #F5F5F7;
@@ -88,13 +88,14 @@ ul {
   border-radius: 30px;
 }
 
-/* ------ new ------- */
+/* ------ section new ------- */
 
 .new {
   padding: 90px 0 150px;
 }
 
-.new__title {
+.new__title,
+.color__title {
   margin: 0 0 50px;
   text-transform: uppercase;
   text-align: center;
@@ -123,4 +124,31 @@ ul {
 
 .new__image {
   margin-left: 190px;
+}
+
+/* ------ section new ------- */
+
+.color {
+  padding-bottom: 150px;
+}
+
+.color__list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.color__image {
+  margin-bottom: 20px;
+}
+
+.color__item h3{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 0 0 10px;
+}
+
+.color__item p {
+  margin: 0;
 }
