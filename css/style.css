@@ -44,3 +44,36 @@ ul {
 .menu__item:not(:last-child) {
   padding-right: 30px;
 }
+
+
+
+.headline {
+  background-color: #F5F5F7;
+  text-align: center;
+  padding: 70px 0 40px;
+}
+
+.headline__title {
+  text-transform: uppercase;
+  margin: 0 0 40px;
+  color: #490E84;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+}
+
+.headline__img {
+  margin-bottom: 25px;
+}
+
+.headline__btn {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #490E84;
+  padding: 22px 117px 19px;
+  border-radius: 30px;
+}
