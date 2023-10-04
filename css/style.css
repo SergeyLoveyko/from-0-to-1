@@ -28,9 +28,9 @@ ul {
 }
 
 .container {
-  max-width: 1230px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 .nav {
@@ -164,7 +164,7 @@ ul {
 
 .contacts__form {
   width: 100%;
-  padding: 140px 100px;
+  padding: 140px 93px;
 }
 
 .contacts__title {
@@ -209,4 +209,35 @@ ul {
   padding: 16px 81px;
   font-weight: 700;
   line-height: 18px;
+}
+
+/* ------ footer ------- */
+
+
+.footer {
+  background-color: #0A0A0A;
+}
+
+
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  color: #717171;
+}
+
+.footer__link {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.footer__phone {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: right;
+  font-size: 24px;
+  line-height: 29px;
 }
